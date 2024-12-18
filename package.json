@@ -1,0 +1,46 @@
+{
+  "name": "adani",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.7",
+    "@mui/material": "^6.1.7",
+    "@mui/x-data-grid": "^7.23.0",
+    "@mui/x-data-grid-premium": "^7.23.0",
+    "axios": "^1.7.8",
+    "chart.js": "^4.4.6",
+    "framer-motion": "^11.12.0",
+    "js-cookie": "^3.0.5",
+    "jwt-decode": "^4.0.0",
+    "moment": "^2.30.1",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1",
+    "react-helmet-async": "^2.0.5",
+    "react-hot-toast": "^2.4.1",
+    "react-router-dom": "^7.0.1",
+    "react-scroll": "^1.9.0",
+    "sass": "^1.81.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.12.0",
+    "vite": "^6.0.1"
+  }
+}

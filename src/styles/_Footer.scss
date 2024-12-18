@@ -1,0 +1,197 @@
+.footer {
+    background: linear-gradient(135deg, #1a1a1a, #0e304d);
+    color: #fff;
+    padding: 60px 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+    .footer-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        max-width: 1200px;
+        margin: 0 auto;
+        align-items: start;
+        padding: 0 20px;
+
+        .footer-logo {
+            text-align: left;
+
+            h2 {
+                font-size: 2.5rem;
+                font-weight: 700;
+                color: #007DFF;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 1.1rem;
+                color: #ccc;
+                line-height: 1.6;
+                margin-bottom: 20px;
+            }
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: space-between;
+
+            .footer-links-section {
+                h3 {
+                    font-size: 1.3rem;
+                    color: #007DFF;
+                    margin-bottom: 10px;
+                }
+
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+
+                    li {
+                        margin-bottom: 10px;
+                        font-size: 1.1rem;
+                        letter-spacing: 0.5px;
+
+                        a {
+                            color: #ddd;
+                            text-decoration: none;
+                            transition: all 0.3s ease;
+                            font-weight: 500;
+
+                            &:hover {
+                                color: #FBB13C;
+                                border-bottom: 2px solid #FBB13C;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-contact {
+            font-size: 1.1rem;
+            color: #bbb;
+
+            i {
+                margin-right: 10px;
+                color: #007DFF;
+            }
+        }
+    }
+
+    .footer-bottom {
+        margin-top: 30px;
+        font-size: 1rem;
+        color: #aaa;
+        border-top: 2px solid #444;
+        padding-top: 20px;
+
+        p {
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    }
+
+    /* Tablet and smaller screens */
+    @media (max-width: 1024px) {
+        .footer-container {
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+
+            .footer-logo {
+                // text-align: center;
+                margin-bottom: 20px;
+
+                >h2 {
+                    font-size: 1.5rem;
+                }
+
+                >p {
+                    font-size: 0.8rem;
+                }
+            }
+
+            .footer-links {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+                justify-items: center;
+
+                .footer-links-section {
+
+                    >h3 {
+                        font-size: 1.1rem;
+                    }
+
+                    >ul {
+
+                        >li {
+                            font-size: 0.8rem;
+                        }
+                    }
+
+                }
+            }
+        }
+
+    }
+
+    /* Mobile screens */
+    @media (max-width: 480px) {
+        .footer-container {
+            grid-template-columns: 1fr;
+            gap: 20px;
+
+            .footer-logo {
+                text-align: center;
+
+                >h2 {
+                    font-size: 1rem;
+                }
+
+                >p {
+                    font-size: 0.7rem;
+                }
+            }
+
+
+        }
+
+        .footer-links {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+            justify-items: center;
+
+
+            .footer-links-section {
+
+                >h3 {
+                    font-size: 0.8rem;
+                }
+
+                >ul {
+
+                    >li {
+                        font-size: 0.8rem;
+                    }
+                }
+
+            }
+
+        }
+
+        .footer-bottom {
+            font-size: 0.7rem;
+        }
+
+
+
+
+
+    }
+}
